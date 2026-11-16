@@ -2,6 +2,8 @@
 
 int main(void) {
 	int temperatura = 25;
-	printf("Temperatura: %d graus\n", temperatura);
+	float fahrenheit = temperatura * 9.0 / 5.0 + 32.0;
+	
+	printf("Temperatura: %d graus\nFahrenheit: %.1f graus\n", temperatura, fahrenheit);
 	return 0;
 }
